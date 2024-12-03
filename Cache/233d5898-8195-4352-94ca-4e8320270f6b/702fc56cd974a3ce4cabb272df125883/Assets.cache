@@ -1,0 +1,13 @@
+- !<AssetCache/702fc56c-d974-a3ce-4cab-b272df125883>
+  AssetFiles:
+    b1093421-42e0-4fa7-b5a4-39bdffb15872: 233d5898-8195-4352-94ca-4e8320270f6b/702fc56cd974a3ce4cabb272df125883/Data/stripe_noise 2.png
+  Assets:
+    - !<FileTexture/b1093421-42e0-4fa7-b5a4-39bdffb15872>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 1
+  SourceHash: 702fc56cd974a3ce4cabb272df125883
+  FileHash: 41f4a77dd7a1cd826cefae158bb396f1
+  NativePackageItems:
+    []

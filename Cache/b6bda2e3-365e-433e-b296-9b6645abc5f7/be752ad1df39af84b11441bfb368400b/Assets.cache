@@ -1,0 +1,13 @@
+- !<AssetCache/be752ad1-df39-af84-b114-41bfb368400b>
+  AssetFiles:
+    98207b82-de33-4178-86f2-3bb6e98fabf9: b6bda2e3-365e-433e-b296-9b6645abc5f7/be752ad1df39af84b11441bfb368400b/Data/follow-white-shadow.png
+  Assets:
+    - !<FileTexture/98207b82-de33-4178-86f2-3bb6e98fabf9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 96
+        Height: 96
+  SourceHash: be752ad1df39af84b11441bfb368400b
+  FileHash: 55e455d86e79fd8928a1585517dab57a
+  NativePackageItems:
+    []

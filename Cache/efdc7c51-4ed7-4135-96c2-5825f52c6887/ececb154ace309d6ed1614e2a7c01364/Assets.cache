@@ -1,0 +1,13 @@
+- !<AssetCache/ececb154-ace3-09d6-ed16-14e2a7c01364>
+  AssetFiles:
+    6a251d2e-3c3a-4b5b-a104-df38ba434b2b: efdc7c51-4ed7-4135-96c2-5825f52c6887/ececb154ace309d6ed1614e2a7c01364/Data/body-tube_rocket-C.png
+  Assets:
+    - !<FileTexture/6a251d2e-3c3a-4b5b-a104-df38ba434b2b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 450
+        Height: 450
+  SourceHash: ececb154ace309d6ed1614e2a7c01364
+  FileHash: 004f52bc70ae62d797a08a5f25a3b20d
+  NativePackageItems:
+    []

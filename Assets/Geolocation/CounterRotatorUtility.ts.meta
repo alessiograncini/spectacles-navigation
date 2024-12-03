@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/86842b5c-34ac-4bca-9d76-9651f2473c0d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0733d419-7923-43b8-b216-0ebc22c7d058
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0733d419-7923-43b8-b216-0ebc22c7d058
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4aaf934d-5776-4e0e-a841-84f99eddc9f0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/57ffb0a8-3ea2-45c3-a5b2-53ff1cae71c6>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4aaf934d-5776-4e0e-a841-84f99eddc9f0>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cameraObject: false
+    pointerObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - pointerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input SceneObject pointerObject {"hint":"Object to counter-rotate"}'
+    - '// @input SceneObject cameraObject {"hint":"Camera reference"}'

@@ -1,0 +1,13 @@
+- !<AssetCache/a4db7f4e-01f8-4f53-b30b-4558ebc09afb>
+  AssetFiles:
+    5735977e-5932-441c-a3b9-dd567ce47a4a: 10b2c23e-37a8-4a24-ac94-174035c91102/ef28c087872a5f1cced2289154a5706a/Data/Map Pin.png
+  Assets:
+    - !<FileTexture/5735977e-5932-441c-a3b9-dd567ce47a4a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 123
+        Height: 123
+  SourceHash: ef28c087872a5f1cced2289154a5706a
+  FileHash: 5ab45a4d52c3570672d09d608770d835
+  NativePackageItems:
+    []

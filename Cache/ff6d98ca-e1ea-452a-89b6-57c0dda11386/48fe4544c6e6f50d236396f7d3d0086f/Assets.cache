@@ -1,0 +1,13 @@
+- !<AssetCache/48fe4544-c6e6-f50d-2363-96f7d3d0086f>
+  AssetFiles:
+    42822012-60f9-4ead-8b9a-484aba94be0b: ff6d98ca-e1ea-452a-89b6-57c0dda11386/48fe4544c6e6f50d236396f7d3d0086f/Data/fins_rocket-A.png
+  Assets:
+    - !<FileTexture/42822012-60f9-4ead-8b9a-484aba94be0b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 450
+        Height: 450
+  SourceHash: 48fe4544c6e6f50d236396f7d3d0086f
+  FileHash: 1f7b79cb1ea54b6a4515df3cd0540bdc
+  NativePackageItems:
+    []

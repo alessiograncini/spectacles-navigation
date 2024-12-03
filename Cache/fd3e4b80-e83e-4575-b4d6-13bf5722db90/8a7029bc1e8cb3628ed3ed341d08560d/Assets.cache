@@ -1,0 +1,226 @@
+- !<AssetCache/8a7029bc-1e8c-b362-8ed3-ed341d08560d>
+  AssetFiles:
+    39aa233d-4b57-4d88-9cc7-e1912f2d3cac: fd3e4b80-e83e-4575-b4d6-13bf5722db90/8a7029bc1e8cb3628ed3ed341d08560d/Data/MapMask.ss_graph
+  Assets:
+    - !<ShaderGraphPass/39aa233d-4b57-4d88-9cc7-e1912f2d3cac>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N011:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N017:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N047:
+          typeIdx: 1
+          value: 0.900000
+        Port_LODValue_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N041:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N048:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_UVCoord_N041:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_UVCoord_N048:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value3_N007:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N007:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N045:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value_N010:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value_N015:
+          typeIdx: 1
+          value: 1.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/00000000-0000-0000-0000-000000000000>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Use Outline Texture
+            mType: Property
+            mName: useOutlineTexture
+            mWidget: checkbox
+            mHint: "Property: useOutlineTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Map Outline
+            mType: Property
+            mName: mapOutline
+            mWidget: texture_group
+            mHint: "Property: mapOutline"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Map Mask
+            mType: Property
+            mName: mapMask
+            mWidget: texture_group
+            mHint: "Property: mapMask"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: baseText
+            mType: Property
+            mName: baseText
+            mWidget: texture_group
+            mHint: "Property: baseText"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: widthDivider
+            mType: Property
+            mName: widthDivider
+            mWidget: spinbox
+            mHint: "Property: widthDivider"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: heightDivider
+            mType: Property
+            mName: heightDivider
+            mWidget: spinbox
+            mHint: "Property: heightDivider"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Line Thickness
+            mType: Property
+            mName: lineThickness
+            mWidget: slider
+            mHint: "Property: lineThickness"
+            mMin: 0.001000
+            mMax: 0.009000
+            mStep: 0.000500
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Line Color
+            mType: Property
+            mName: lineColor
+            mWidget: color
+            mHint: "Property: lineColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Background Color
+            mType: Property
+            mName: backgroundColor
+            mWidget: color
+            mHint: "Property: backgroundColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: fd3e4b80-e83e-4575-b4d6-13bf5722db90/8a7029bc1e8cb3628ed3ed341d08560d/Data/f4eca80/MapMask.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 8a7029bc1e8cb3628ed3ed341d08560d
+  FileHash: f4c4d52fcdde2a51465a6fca8c1500c8
+  NativePackageItems:
+    []

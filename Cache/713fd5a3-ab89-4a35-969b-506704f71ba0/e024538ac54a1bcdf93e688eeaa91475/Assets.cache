@@ -1,0 +1,13 @@
+- !<AssetCache/e024538a-c54a-1bcd-f93e-688eeaa91475>
+  AssetFiles:
+    c37b3628-c954-4ccc-b28f-152de08cd0eb: 713fd5a3-ab89-4a35-969b-506704f71ba0/e024538ac54a1bcdf93e688eeaa91475/Data/SIK_Rockets_AO.jpg
+  Assets:
+    - !<FileTexture/c37b3628-c954-4ccc-b28f-152de08cd0eb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: e024538ac54a1bcdf93e688eeaa91475
+  FileHash: dfce7607d8d8640ff86d03f8d5905b10
+  NativePackageItems:
+    []

@@ -1,0 +1,93 @@
+- !<AssetImportMetadata/da159857-e7c8-4196-a04a-7ab870464acb>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 27148a9b-ab15-4655-b3c5-3e15599794a8
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 27148a9b-ab15-4655-b3c5-3e15599794a8
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> ddf3529a-9e18-4882-ac07-ee7ae858aac6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/1383d409-1ab3-493e-8ea4-22cde3163abc>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/62ff090b-2bd8-4873-b27d-73b492690c17>
+  PackagePath: Prefabs/ExamplePin
+  objects:
+    - !<own> ada871ee-0033-4aa2-b9cc-8bc7c38a8d9e
+  LazyLoading: false
+  RetainAssets: true
+- !<ScreenTransform/66424a67-f1c2-4a2a-a956-37c97114ad34>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -3.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  Offset:
+    left: -0.500000
+    bottom: -0.500000
+    right: 0.500000
+    top: 0.500000
+- !<SceneObject/ada871ee-0033-4aa2-b9cc-8bc7c38a8d9e>
+  PrefabRemaps:
+    []
+  Name: ExamplePin
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -3.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 66424a67-f1c2-4a2a-a956-37c97114ad34
+    - !<own> d8abad88-b103-4e36-bf15-906446419eb2
+- !<Image/d8abad88-b103-4e36-bf15-906446419eb2>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9620720d-11cc-41aa-96ad-f74259b321c2
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/ddf3529a-9e18-4882-ac07-ee7ae858aac6>
+  SourceRemaps:
+    - 63c993fc-3c34-4628-b2f9-286572877443: ada871ee-0033-4aa2-b9cc-8bc7c38a8d9e
+    - 95098038-6c07-4433-8cc4-782985644fea: d8abad88-b103-4e36-bf15-906446419eb2
+    - c0897d98-45c1-4209-861f-f7263a323d33: 66424a67-f1c2-4a2a-a956-37c97114ad34
+  SourceState: !<own> 62ff090b-2bd8-4873-b27d-73b492690c17

@@ -1,0 +1,13 @@
+- !<AssetCache/4e3b9e35-2b8c-7cf5-e38d-18dc137450fb>
+  AssetFiles:
+    c3c0f3eb-fe7c-4405-8bd2-c39bc0a4cab5: c649a7cd-7d25-4d3b-8393-da27f9668777/4e3b9e352b8c7cf5e38d18dc137450fb/Data/dots.png
+  Assets:
+    - !<FileTexture/c3c0f3eb-fe7c-4405-8bd2-c39bc0a4cab5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 4e3b9e352b8c7cf5e38d18dc137450fb
+  FileHash: ff6899c7702689c1e0a4151d4cc6ff9c
+  NativePackageItems:
+    []

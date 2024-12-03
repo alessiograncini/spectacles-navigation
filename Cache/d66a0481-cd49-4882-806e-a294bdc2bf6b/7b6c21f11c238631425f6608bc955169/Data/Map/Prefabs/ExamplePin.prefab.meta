@@ -1,0 +1,93 @@
+- !<AssetImportMetadata/682546c7-bfd5-47a7-89f0-8d7b07139e13>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 7012352b-3294-4520-b62e-fb18f1e62edd
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 7012352b-3294-4520-b62e-fb18f1e62edd
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> c9027090-b21b-42c3-b028-97f908be90d9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/68bba6c9-3fd8-4682-9c28-8bd057b7d0d5>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Image/2e6cdcdb-1da0-4073-98f1-d34eb5c01474>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f2e9ed83-cb20-41aa-845f-b815abec5a97
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/3c473e58-0e9a-4c7c-beb1-14dc2eece5a6>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -3.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  Offset:
+    left: -0.500000
+    bottom: -0.500000
+    right: 0.500000
+    top: 0.500000
+- !<ObjectPrefab/7c3bd834-cbeb-4a38-8d3b-a9430034bcf8>
+  PackagePath: Prefabs/ExamplePin
+  objects:
+    - !<own> 88a526d6-95ec-44b7-a759-a376ae12ba8e
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/88a526d6-95ec-44b7-a759-a376ae12ba8e>
+  PrefabRemaps:
+    []
+  Name: ExamplePin
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -3.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3c473e58-0e9a-4c7c-beb1-14dc2eece5a6
+    - !<own> 2e6cdcdb-1da0-4073-98f1-d34eb5c01474
+- !<ObjectPrefabAssetData/c9027090-b21b-42c3-b028-97f908be90d9>
+  SourceRemaps:
+    - 2027cf1a-5834-4217-a12c-8e8e764bd49c: 88a526d6-95ec-44b7-a759-a376ae12ba8e
+    - 3c8034b1-63c1-4891-bbfc-e40221d43c1b: 2e6cdcdb-1da0-4073-98f1-d34eb5c01474
+    - d67932c7-04be-40ad-bef6-ebe29706215a: 3c473e58-0e9a-4c7c-beb1-14dc2eece5a6
+  SourceState: !<own> 7c3bd834-cbeb-4a38-8d3b-a9430034bcf8

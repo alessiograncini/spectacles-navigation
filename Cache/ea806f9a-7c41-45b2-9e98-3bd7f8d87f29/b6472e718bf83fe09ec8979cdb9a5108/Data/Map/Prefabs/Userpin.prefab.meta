@@ -1,0 +1,143 @@
+- !<AssetImportMetadata/ee06fa35-abb9-4f17-84dd-e86b4a0ba5e5>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> f0038b52-a51f-41c9-9f1f-4f9da7ac303c
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> f0038b52-a51f-41c9-9f1f-4f9da7ac303c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 72e8ee49-1c48-42c0-82e2-eece8306e60f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/5a138917-c8cb-4993-bab3-987a2b79d167>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/1aba48d1-1f72-4606-b231-ccc975cd97e8>
+  PackagePath: Prefabs/Userpin
+  objects:
+    - !<own> 632f3900-bb80-4262-9965-09e25dfe91f3
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/632f3900-bb80-4262-9965-09e25dfe91f3>
+  PrefabRemaps:
+    []
+  Name: Userpin
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 907ffff9-96ed-4d86-9ee2-2b85f761d693
+  Components:
+    - !<own> 7b2cbb67-e3f0-4595-9026-203741a83823
+- !<ObjectPrefabAssetData/72e8ee49-1c48-42c0-82e2-eece8306e60f>
+  SourceRemaps:
+    - 2daadbd3-0257-4ff3-ab98-67cfb5e97660: 7b2cbb67-e3f0-4595-9026-203741a83823
+    - 5ef54737-93fb-4919-8647-e00972087fa3: ee912145-c724-4639-b119-3799716af168
+    - 9ab5d53b-c024-4d9e-bc7a-df84cc13f23c: 907ffff9-96ed-4d86-9ee2-2b85f761d693
+    - b2713163-45bd-4bf8-bbfc-511edd799c11: 9ab94559-380e-4f4b-bcb6-4c972c92fe15
+    - d59938be-e107-4c92-88c7-49c1e0238cdb: 632f3900-bb80-4262-9965-09e25dfe91f3
+  SourceState: !<own> 1aba48d1-1f72-4606-b231-ccc975cd97e8
+- !<ScreenTransform/7b2cbb67-e3f0-4595-9026-203741a83823>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  Offset:
+    left: -0.500000
+    bottom: -0.500000
+    right: 0.500000
+    top: 0.500000
+- !<SceneObject/907ffff9-96ed-4d86-9ee2-2b85f761d693>
+  PrefabRemaps:
+    []
+  Name: Screen Image 1
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ee912145-c724-4639-b119-3799716af168
+    - !<own> 9ab94559-380e-4f4b-bcb6-4c972c92fe15
+- !<Image/9ab94559-380e-4f4b-bcb6-4c972c92fe15>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c6522d77-ab10-4117-95ea-2180ec254081
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/ee912145-c724-4639-b119-3799716af168>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.009552
+    bottom: 0.208185
+    right: 0.009552
+    top: 0.208185

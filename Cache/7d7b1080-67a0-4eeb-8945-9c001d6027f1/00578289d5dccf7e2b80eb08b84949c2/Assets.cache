@@ -1,0 +1,14 @@
+- !<AssetCache/00578289-d5dc-cf7e-2b80-eb08b84949c2>
+  AssetFiles:
+    f00fc02a-4298-470e-a0c2-324a6f49b89f: 7d7b1080-67a0-4eeb-8945-9c001d6027f1/00578289d5dccf7e2b80eb08b84949c2/Data/reflection-map-1-cube.png
+  Assets:
+    - !<FileTextureCubemap/f00fc02a-4298-470e-a0c2-324a6f49b89f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo3D/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+        Depth: 6
+  SourceHash: 00578289d5dccf7e2b80eb08b84949c2
+  FileHash: c5afdb3665bd04a5b4511221d0273971
+  NativePackageItems:
+    []

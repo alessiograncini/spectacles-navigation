@@ -1,0 +1,17 @@
+- !<AssetCache/00642d62-96b2-d0f3-7c16-04a24c11a0d0>
+  AssetFiles:
+    162965b5-fcf4-4b43-9d7f-c695f1e0f247: 3a8ae1bb-9f92-46e6-b5a2-dc6550ec4ced/00642d6296b2d0f37c1604a24c11a0d0/Data/ScrollBarKnobMesh.mesh
+  Assets:
+    - !<FileMesh/162965b5-fcf4-4b43-9d7f-c695f1e0f247>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 576
+        Vertices: 322
+        Blendshapes:
+          - Pinch Vertical
+          - Pinch Horizontal
+        Joints: 0
+  SourceHash: 00642d6296b2d0f37c1604a24c11a0d0
+  FileHash: 9711edc4c4d865de87fe6ce3e62ff2fb
+  NativePackageItems:
+    []

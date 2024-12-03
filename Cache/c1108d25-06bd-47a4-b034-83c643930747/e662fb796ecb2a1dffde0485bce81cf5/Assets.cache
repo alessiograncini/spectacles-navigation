@@ -1,0 +1,13 @@
+- !<AssetCache/e662fb79-6ecb-2a1d-ffde-0485bce81cf5>
+  AssetFiles:
+    548c3f1d-f429-4dc1-bdda-0b76b4b02175: c1108d25-06bd-47a4-b034-83c643930747/e662fb796ecb2a1dffde0485bce81cf5/Data/SimpleRefl_02.jpg
+  Assets:
+    - !<FileTexture/548c3f1d-f429-4dc1-bdda-0b76b4b02175>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 256
+        Height: 256
+  SourceHash: e662fb796ecb2a1dffde0485bce81cf5
+  FileHash: 92eac359fa4af464ecaf7a182bb5ca0e
+  NativePackageItems:
+    []

@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/4aec242a-045e-4eff-b944-09059b2baba6>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> bf33dc73-09ce-41ae-b800-b3d7c76493af
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> bf33dc73-09ce-41ae-b800-b3d7c76493af
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> f799d82f-12b5-4d08-aad3-adcedb747248
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/7f004424-1518-44d6-8154-3bfe1d3d3cfd>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f799d82f-12b5-4d08-aad3-adcedb747248>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    lineMaterial: false
+    locationService: false
+    mapModule: false
+    mapRenderPrefab: false
+    mapTileMaterial: false
+    maskMaterial: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - mapModule: !<reference.MapModule> 00000000-0000-0000-0000-000000000000
+      locationService: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      mapTileMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      mapImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      mapImageTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      mapGridObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mapCenter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lineMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      mapRenderPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      maskMaterial: !<reference.Image> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

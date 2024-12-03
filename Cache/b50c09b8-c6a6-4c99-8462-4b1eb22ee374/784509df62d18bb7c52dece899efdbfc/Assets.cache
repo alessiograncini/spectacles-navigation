@@ -1,0 +1,13 @@
+- !<AssetCache/784509df-62d1-8bb7-c52d-ece899efdbfc>
+  AssetFiles:
+    99d705f1-24ae-47dd-9ab4-83df18e3a3f1: b50c09b8-c6a6-4c99-8462-4b1eb22ee374/784509df62d18bb7c52dece899efdbfc/Data/SIK_Platforms_AO.jpg
+  Assets:
+    - !<FileTexture/99d705f1-24ae-47dd-9ab4-83df18e3a3f1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 784509df62d18bb7c52dece899efdbfc
+  FileHash: 9dcbb80959ccb1bebaaa9958d47ff923
+  NativePackageItems:
+    []

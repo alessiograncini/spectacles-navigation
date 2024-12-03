@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/3c293074-d138-4846-a4fb-530a2b73c429>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 53648872-8b7a-4e84-bd48-8858cc5676e8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 53648872-8b7a-4e84-bd48-8858cc5676e8
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> a1be09df-ddfb-4899-a38d-b5a2baf06da0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/9d6a18fd-49ca-4729-8d62-d9e1bc93b089>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a1be09df-ddfb-4899-a38d-b5a2baf06da0>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    geolocationText: false
+    mapModule: false
+    placeText: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - geolocationText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      placeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      mapModule: !<reference.MapModule> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.Text geolocationText {"hint":"Assign a Text component to display geolocation data."}'
+    - '// @input Component.Text placeText {"hint":"Assign a Text component to display the nearest location name."}'
+    - '// @input Asset.MapModule mapModule {"hint":"Assign the MapModule asset."}'

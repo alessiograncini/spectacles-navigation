@@ -1,0 +1,13 @@
+- !<AssetCache/596d3ec2-0e7f-4049-845d-4c0214c687ee>
+  AssetFiles:
+    ad7c38b9-f228-4724-afd9-9c71dc64ae3c: 6d5dddf3-069c-4755-8560-15f5fede65d9/b728852909978173adcd8123a5cc6e65/Data/Map Outline.png
+  Assets:
+    - !<FileTexture/ad7c38b9-f228-4724-afd9-9c71dc64ae3c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 488
+        Height: 472
+  SourceHash: b728852909978173adcd8123a5cc6e65
+  FileHash: 8c3304cc836e8d2b8fc638513cb9f035
+  NativePackageItems:
+    []

@@ -1,0 +1,180 @@
+//SG_REFLECTION_BEGIN(200)
+//attribute vec4 boneData 5
+//attribute vec3 blendShape0Pos 6
+//attribute vec3 blendShape0Normal 12
+//attribute vec3 blendShape1Pos 7
+//attribute vec3 blendShape1Normal 13
+//attribute vec3 blendShape2Pos 8
+//attribute vec3 blendShape2Normal 14
+//attribute vec3 blendShape3Pos 9
+//attribute vec3 blendShape4Pos 10
+//attribute vec3 blendShape5Pos 11
+//attribute vec4 position 0
+//attribute vec3 normal 1
+//attribute vec4 tangent 2
+//attribute vec2 texture0 3
+//attribute vec2 texture1 4
+//attribute vec3 positionNext 15
+//attribute vec3 positionPrevious 16
+//attribute vec4 strandProperties 17
+//output vec4 FragColor0 0
+//output vec4 FragColor1 1
+//output vec4 FragColor2 2
+//output vec4 FragColor3 3
+//sampler sampler renderTarget0SmpSC 2:11
+//sampler sampler renderTarget1SmpSC 2:12
+//sampler sampler renderTarget2SmpSC 2:13
+//sampler sampler renderTarget3SmpSC 2:14
+//texture texture2D renderTarget0 2:1:2:11
+//texture texture2D renderTarget1 2:2:2:12
+//texture texture2D renderTarget2 2:3:2:13
+//texture texture2D renderTarget3 2:4:2:14
+//ubo float sc_BonesUBO 2:0:96 {
+//sc_Bone_t sc_Bones 0:[]:96
+//float4 sc_Bones.boneMatrix 0:[3]:16
+//float4 sc_Bones.normalMatrix 48:[3]:16
+//}
+//ubo int UserUniforms 2:21:4336 {
+//sc_PointLight_t sc_PointLights 0:[3]:80
+//bool sc_PointLights.falloffEnabled 0
+//float sc_PointLights.falloffEndDistance 4
+//float sc_PointLights.negRcpFalloffEndDistance4 8
+//float sc_PointLights.angleScale 12
+//float sc_PointLights.angleOffset 16
+//float3 sc_PointLights.direction 32
+//float3 sc_PointLights.position 48
+//float4 sc_PointLights.color 64
+//sc_DirectionalLight_t sc_DirectionalLights 240:[5]:32
+//float3 sc_DirectionalLights.direction 0
+//float4 sc_DirectionalLights.color 16
+//sc_AmbientLight_t sc_AmbientLights 400:[3]:32
+//float3 sc_AmbientLights.color 0
+//float sc_AmbientLights.intensity 16
+//sc_LightEstimationData_t sc_LightEstimationData 496
+//sc_SphericalGaussianLight_t sc_LightEstimationData.sg 0:[12]:48
+//float3 sc_LightEstimationData.sg.color 0
+//float sc_LightEstimationData.sg.sharpness 16
+//float3 sc_LightEstimationData.sg.axis 32
+//float3 sc_LightEstimationData.ambientLight 576
+//float4 sc_EnvmapDiffuseSize 1088
+//float4 sc_EnvmapDiffuseDims 1104
+//float4 sc_EnvmapDiffuseView 1120
+//float4 sc_EnvmapSpecularSize 1136
+//float4 sc_EnvmapSpecularDims 1152
+//float4 sc_EnvmapSpecularView 1168
+//float3 sc_EnvmapRotation 1184
+//float sc_EnvmapExposure 1200
+//float3 sc_Sh 1216:[9]:16
+//float sc_ShIntensity 1360
+//float4 sc_Time 1376
+//float4 sc_UniformConstants 1392
+//float4 sc_GeometryInfo 1408
+//float4x4 sc_ModelViewProjectionMatrixArray 1424:[2]:64
+//float4x4 sc_ModelViewProjectionMatrixInverseArray 1552:[2]:64
+//float4x4 sc_ViewProjectionMatrixArray 1680:[2]:64
+//float4x4 sc_ViewProjectionMatrixInverseArray 1808:[2]:64
+//float4x4 sc_ModelViewMatrixArray 1936:[2]:64
+//float4x4 sc_ModelViewMatrixInverseArray 2064:[2]:64
+//float3x3 sc_ViewNormalMatrixArray 2192:[2]:48
+//float3x3 sc_ViewNormalMatrixInverseArray 2288:[2]:48
+//float4x4 sc_ProjectionMatrixArray 2384:[2]:64
+//float4x4 sc_ProjectionMatrixInverseArray 2512:[2]:64
+//float4x4 sc_ViewMatrixArray 2640:[2]:64
+//float4x4 sc_ViewMatrixInverseArray 2768:[2]:64
+//float4x4 sc_PrevFrameViewProjectionMatrixArray 2896:[2]:64
+//float4x4 sc_ModelMatrix 3024
+//float4x4 sc_ModelMatrixInverse 3088
+//float3x3 sc_NormalMatrix 3152
+//float3x3 sc_NormalMatrixInverse 3200
+//float4x4 sc_PrevFrameModelMatrix 3248
+//float4x4 sc_PrevFrameModelMatrixInverse 3312
+//float3 sc_LocalAabbMin 3376
+//float3 sc_LocalAabbMax 3392
+//float3 sc_WorldAabbMin 3408
+//float3 sc_WorldAabbMax 3424
+//float4 sc_WindowToViewportTransform 3440
+//sc_Camera_t sc_Camera 3456
+//float3 sc_Camera.position 0
+//float sc_Camera.aspect 16
+//float2 sc_Camera.clipPlanes 24
+//float sc_ShadowDensity 3488
+//float4 sc_ShadowColor 3504
+//float4x4 sc_ProjectorMatrix 3520
+//float _sc_GetFramebufferColorInvalidUsageMarker 3584
+//float shaderComplexityValue 3588
+//float sc_DisableFrustumCullingMarker 3592
+//float4 weights0 3600
+//float4 weights1 3616
+//float4 weights2 3632
+//float4 sc_StereoClipPlanes 3648:[2]:16
+//int sc_FallbackInstanceID 3680
+//float _sc_framebufferFetchMarker 3684
+//float2 sc_TAAJitterOffset 3688
+//float strandWidth 3696
+//float strandTaper 3700
+//float4 sc_StrandDataMapTextureSize 3712
+//float clumpInstanceCount 3728
+//float clumpRadius 3732
+//float clumpTipScale 3736
+//float hairstyleInstanceCount 3740
+//float hairstyleNoise 3744
+//float4 sc_ScreenTextureSize 3760
+//float4 sc_ScreenTextureDims 3776
+//float4 sc_ScreenTextureView 3792
+//float4 renderTarget0Size 3808
+//float4 renderTarget0Dims 3824
+//float4 renderTarget0View 3840
+//float3x3 renderTarget0Transform 3856
+//float4 renderTarget0UvMinMax 3904
+//float4 renderTarget0BorderColor 3920
+//float4 renderTarget1Size 3936
+//float4 renderTarget1Dims 3952
+//float4 renderTarget1View 3968
+//float3x3 renderTarget1Transform 3984
+//float4 renderTarget1UvMinMax 4032
+//float4 renderTarget1BorderColor 4048
+//float4 renderTarget2Size 4064
+//float4 renderTarget2Dims 4080
+//float4 renderTarget2View 4096
+//float3x3 renderTarget2Transform 4112
+//float4 renderTarget2UvMinMax 4160
+//float4 renderTarget2BorderColor 4176
+//float4 renderTarget3Size 4192
+//float4 renderTarget3Dims 4208
+//float4 renderTarget3View 4224
+//float3x3 renderTarget3Transform 4240
+//float4 renderTarget3UvMinMax 4288
+//float4 renderTarget3BorderColor 4304
+//float2 rtScaleFactor 4320
+//}
+//spec_const bool SC_USE_CLAMP_TO_BORDER_renderTarget0 1000
+//spec_const bool SC_USE_CLAMP_TO_BORDER_renderTarget1 1001
+//spec_const bool SC_USE_CLAMP_TO_BORDER_renderTarget2 1002
+//spec_const bool SC_USE_CLAMP_TO_BORDER_renderTarget3 1003
+//spec_const bool SC_USE_UV_MIN_MAX_renderTarget0 1004
+//spec_const bool SC_USE_UV_MIN_MAX_renderTarget1 1005
+//spec_const bool SC_USE_UV_MIN_MAX_renderTarget2 1006
+//spec_const bool SC_USE_UV_MIN_MAX_renderTarget3 1007
+//spec_const bool SC_USE_UV_TRANSFORM_renderTarget0 1008
+//spec_const bool SC_USE_UV_TRANSFORM_renderTarget1 1009
+//spec_const bool SC_USE_UV_TRANSFORM_renderTarget2 1010
+//spec_const bool SC_USE_UV_TRANSFORM_renderTarget3 1011
+//spec_const bool renderTarget0HasSwappedViews 1012
+//spec_const bool renderTarget1HasSwappedViews 1013
+//spec_const bool renderTarget2HasSwappedViews 1014
+//spec_const bool renderTarget3HasSwappedViews 1015
+//spec_const int SC_SOFTWARE_WRAP_MODE_U_renderTarget0 1016
+//spec_const int SC_SOFTWARE_WRAP_MODE_U_renderTarget1 1017
+//spec_const int SC_SOFTWARE_WRAP_MODE_U_renderTarget2 1018
+//spec_const int SC_SOFTWARE_WRAP_MODE_U_renderTarget3 1019
+//spec_const int SC_SOFTWARE_WRAP_MODE_V_renderTarget0 1020
+//spec_const int SC_SOFTWARE_WRAP_MODE_V_renderTarget1 1021
+//spec_const int SC_SOFTWARE_WRAP_MODE_V_renderTarget2 1022
+//spec_const int SC_SOFTWARE_WRAP_MODE_V_renderTarget3 1023
+//spec_const int renderTarget0Layout 1024
+//spec_const int renderTarget1Layout 1025
+//spec_const int renderTarget2Layout 1026
+//spec_const int renderTarget3Layout 1027
+//spec_const int sc_StereoRenderingMode 1028
+//spec_const int sc_StereoRendering_IsClipDistanceEnabled 1029
+//SG_REFLECTION_END

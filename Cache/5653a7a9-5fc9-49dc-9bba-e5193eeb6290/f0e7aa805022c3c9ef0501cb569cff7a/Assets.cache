@@ -1,0 +1,13 @@
+- !<AssetCache/f0e7aa80-5022-c3c9-ef05-01cb569cff7a>
+  AssetFiles:
+    02a9b625-689f-4d3e-8ab8-2641fb21fc64: 5653a7a9-5fc9-49dc-9bba-e5193eeb6290/f0e7aa805022c3c9ef0501cb569cff7a/Data/occlusionGradient.png
+  Assets:
+    - !<FileTexture/02a9b625-689f-4d3e-8ab8-2641fb21fc64>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 240
+        Height: 240
+  SourceHash: f0e7aa805022c3c9ef0501cb569cff7a
+  FileHash: c4b248bd829a724e1d68f6ab87975ff0
+  NativePackageItems:
+    []

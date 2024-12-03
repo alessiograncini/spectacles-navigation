@@ -1,0 +1,6 @@
+ExternalSources:
+  type: "std::map<Es::Uuid, Es::Path>"
+  value:
+    - 2e25fcb4-4be2-4099-b08d-8e7732f8f819: /Users/alessiograncini/Downloads/source 2/3D RightArrow.fbx
+    - 3c293074-d138-4846-a4fb-530a2b73c429: /Users/alessiograncini/Desktop/GeolocationUtility.ts
+  options: 4

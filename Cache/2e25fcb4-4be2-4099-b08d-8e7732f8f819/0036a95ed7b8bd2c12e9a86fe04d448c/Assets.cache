@@ -1,0 +1,74 @@
+- !<AssetCache/0036a95e-d7b8-bd2c-12e9-a86fe04d448c>
+  AssetFiles:
+    e6dc0c05-1161-4f23-bfb7-863d6d6b6076: 2e25fcb4-4be2-4099-b08d-8e7732f8f819/0036a95ed7b8bd2c12e9a86fe04d448c/Data/Meshes/Arrow.mesh
+    a0f1b7e1-b672-4bd7-8ea8-b5d62addc0e9: 2e25fcb4-4be2-4099-b08d-8e7732f8f819/0036a95ed7b8bd2c12e9a86fe04d448c/Data/.hidden/Material.001.ss_graph
+    98170d8f-36cb-4efb-b1e0-d77fbc445845: 2e25fcb4-4be2-4099-b08d-8e7732f8f819/0036a95ed7b8bd2c12e9a86fe04d448c/Data/.hidden/white.jpg
+  Assets:
+    - !<ObjectPrefab/b8ef9627-fe97-41e0-a690-e9f0cd3718b8>
+      PackagePath: ""
+      objects:
+        - !<own> 877bb146-5f2c-4f79-80b5-947f45b84f55
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/e6dc0c05-1161-4f23-bfb7-863d6d6b6076>
+      PackagePath: Meshes/Arrow
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 672
+        Vertices: 354
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 0036a95ed7b8bd2c12e9a86fe04d448c
+  FileHash: a9d218e5ff813f5740e8428173bfd525
+  NativePackageItems:
+    []
+- !<SceneObject/01862635-432b-4645-b1cd-9f75f1619e4c>
+  PrefabRemaps:
+    []
+  Name: Arrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 11.482990, y: 8.663306, z: 11.398100}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 02bd748b-84ab-44b4-a42d-1c7c4ea0f275
+- !<RenderMeshVisual/02bd748b-84ab-44b4-a42d-1c7c4ea0f275>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1f877d37-c968-4d67-8da0-dbf0f4f96d05
+  Mesh: !<reference> e6dc0c05-1161-4f23-bfb7-863d6d6b6076
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/877bb146-5f2c-4f79-80b5-947f45b84f55>
+  PrefabRemaps:
+    []
+  Name: 3D RightArrow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 01862635-432b-4645-b1cd-9f75f1619e4c
+  Components:
+    []

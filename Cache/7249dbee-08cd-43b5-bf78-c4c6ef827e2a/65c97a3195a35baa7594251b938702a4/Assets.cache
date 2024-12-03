@@ -1,0 +1,19 @@
+- !<AssetCache/65c97a31-95a3-5baa-7594-251b938702a4>
+  AssetFiles:
+    afde1835-875a-4672-9a39-ba23cfd936bf: 7249dbee-08cd-43b5-bf78-c4c6ef827e2a/65c97a3195a35baa7594251b938702a4/Data/Diffuse.jpeg
+    2fda0d5e-3f7d-4d0d-a4b5-a911aa775787: 7249dbee-08cd-43b5-bf78-c4c6ef827e2a/65c97a3195a35baa7594251b938702a4/Data/Specular.jpeg
+  Assets:
+    - !<FileTexture/afde1835-875a-4672-9a39-ba23cfd936bf>
+      PackagePath: Diffuse
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 64
+        Height: 32
+    - !<FileTexture/2fda0d5e-3f7d-4d0d-a4b5-a911aa775787>
+      PackagePath: Specular
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 256
+  SourceHash: 65c97a3195a35baa7594251b938702a4
+  FileHash: fb8a0288b0cd3e7074f38fc659bf3e79
+  NativePackageItems:
+    []

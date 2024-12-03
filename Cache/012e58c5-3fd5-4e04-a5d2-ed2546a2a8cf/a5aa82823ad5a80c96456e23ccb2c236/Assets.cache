@@ -1,0 +1,13 @@
+- !<AssetCache/a5aa8282-3ad5-a80c-9645-6e23ccb2c236>
+  AssetFiles:
+    00dc73fe-dc72-4f83-9622-b1ee0be962e5: 012e58c5-3fd5-4e04-a5d2-ed2546a2a8cf/a5aa82823ad5a80c96456e23ccb2c236/Data/body-tube_rocket-B.png
+  Assets:
+    - !<FileTexture/00dc73fe-dc72-4f83-9622-b1ee0be962e5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 450
+        Height: 450
+  SourceHash: a5aa82823ad5a80c96456e23ccb2c236
+  FileHash: fec5dfaaf1c84843d5fa8bf49e4d7213
+  NativePackageItems:
+    []

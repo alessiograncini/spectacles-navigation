@@ -1,0 +1,13 @@
+- !<AssetCache/0f45e155-6c18-9476-1bc4-a076023c6abc>
+  AssetFiles:
+    dab41e20-8e08-4484-8a4a-7e65353915ef: ee738de7-a8d2-4f00-bfb1-89dcac9ddc6a/0f45e1556c1894761bc4a076023c6abc/Data/FollowIconWhite.png
+  Assets:
+    - !<FileTexture/dab41e20-8e08-4484-8a4a-7e65353915ef>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 96
+        Height: 96
+  SourceHash: 0f45e1556c1894761bc4a076023c6abc
+  FileHash: adc095c71dcc3f473c7b9e30efe3f0f7
+  NativePackageItems:
+    []

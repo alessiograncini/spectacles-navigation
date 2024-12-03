@@ -1,0 +1,16 @@
+- !<AssetCache/1d830081-9257-6411-ec87-060a9116b6ab>
+  AssetFiles:
+    8888f14e-fc5f-408e-baea-d0ea0facf21d: 0dd44649-c48c-4cc7-8643-310d047f40ae/1d83008192576411ec87060a9116b6ab/Data/Frame_High.mesh
+  Assets:
+    - !<FileMesh/8888f14e-fc5f-408e-baea-d0ea0facf21d>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 6848
+        Vertices: 3617
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 1d83008192576411ec87060a9116b6ab
+  FileHash: a3d21538aee4a0c3515bedba90de5a19
+  NativePackageItems:
+    []

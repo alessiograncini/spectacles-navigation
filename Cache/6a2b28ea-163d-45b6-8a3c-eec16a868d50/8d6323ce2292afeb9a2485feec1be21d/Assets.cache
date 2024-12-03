@@ -1,0 +1,13 @@
+- !<AssetCache/ded7e147-14a5-4038-bc18-e12aa784d10b>
+  AssetFiles:
+    f1721c30-5146-49ef-a1c8-a7db89ee5ff5: acf5a470-0026-4de3-92e9-138248da6994/8d6323ce2292afeb9a2485feec1be21d/Data/UserPin.png
+  Assets:
+    - !<FileTexture/f1721c30-5146-49ef-a1c8-a7db89ee5ff5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 86
+        Height: 162
+  SourceHash: 8d6323ce2292afeb9a2485feec1be21d
+  FileHash: 9f56146abf80bed674382912e663f774
+  NativePackageItems:
+    []

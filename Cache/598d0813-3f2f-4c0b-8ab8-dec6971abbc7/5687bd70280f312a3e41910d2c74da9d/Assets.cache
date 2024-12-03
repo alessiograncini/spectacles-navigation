@@ -1,0 +1,13 @@
+- !<AssetCache/493aba01-c275-4277-9e7d-4f2b9334c9d4>
+  AssetFiles:
+    8ceceefa-e447-48e3-b418-e10d46c7aa85: a8d188c2-e7fa-4353-8399-829c76746561/5687bd70280f312a3e41910d2c74da9d/Data/Map Mask Circle.png
+  Assets:
+    - !<FileTexture/8ceceefa-e447-48e3-b418-e10d46c7aa85>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 700
+        Height: 700
+  SourceHash: 5687bd70280f312a3e41910d2c74da9d
+  FileHash: fa6c851ede366f7565fb928ebbcf30c8
+  NativePackageItems:
+    []

@@ -1,0 +1,143 @@
+- !<AssetImportMetadata/09234a1f-05be-4fa5-b657-1c64696ae68d>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 5f8ab28a-4af3-4e8a-b09f-0690aad7b9bb
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 5f8ab28a-4af3-4e8a-b09f-0690aad7b9bb
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> f34cd0d5-39cc-4f89-81d2-7e697a561059
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/1ad9a22e-6a0f-4b53-83fc-0a35783d5ad8>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0eb0c13d-24b9-4b6c-9782-88b4ba36514f>
+  PrefabRemaps:
+    []
+  Name: Screen Image 1
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> df5b0ebd-2c9a-4efd-993d-174c45223c40
+    - !<own> a7a378ff-7b8b-4b87-bef2-737b569220c5
+- !<ObjectPrefab/674a12b6-c9b4-47df-9396-87c42e329388>
+  PackagePath: Prefabs/Userpin
+  objects:
+    - !<own> eb4192b5-0b13-47fe-9473-ee0d76d7d208
+  LazyLoading: false
+  RetainAssets: true
+- !<ScreenTransform/87a509fe-cb2d-4aa1-89ed-e9bef178ac91>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  Offset:
+    left: -0.500000
+    bottom: -0.500000
+    right: 0.500000
+    top: 0.500000
+- !<Image/a7a378ff-7b8b-4b87-bef2-737b569220c5>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 20fc10e7-088f-4e3a-b01c-8f453b5c557d
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/df5b0ebd-2c9a-4efd-993d-174c45223c40>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.009552
+    bottom: 0.208185
+    right: 0.009552
+    top: 0.208185
+- !<SceneObject/eb4192b5-0b13-47fe-9473-ee0d76d7d208>
+  PrefabRemaps:
+    []
+  Name: Userpin
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0eb0c13d-24b9-4b6c-9782-88b4ba36514f
+  Components:
+    - !<own> 87a509fe-cb2d-4aa1-89ed-e9bef178ac91
+- !<ObjectPrefabAssetData/f34cd0d5-39cc-4f89-81d2-7e697a561059>
+  SourceRemaps:
+    - 70a7ed18-adcf-4ece-b480-f037617fbca0: df5b0ebd-2c9a-4efd-993d-174c45223c40
+    - 70b467c5-a6b8-46b2-aff8-84e543933f7b: 0eb0c13d-24b9-4b6c-9782-88b4ba36514f
+    - 8fe51f97-090a-49d2-9357-16c4ed5f89ea: 87a509fe-cb2d-4aa1-89ed-e9bef178ac91
+    - b512eb58-f386-4015-93a9-d351d0585bae: eb4192b5-0b13-47fe-9473-ee0d76d7d208
+    - d4ee70bc-31a6-49c3-a66b-1d20a4055d9b: a7a378ff-7b8b-4b87-bef2-737b569220c5
+  SourceState: !<own> 674a12b6-c9b4-47df-9396-87c42e329388
